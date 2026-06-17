@@ -1,6 +1,6 @@
 public class Ifelse {
     public static void main(String[] args){
-        int age = 18; 
+        int age = 20; 
         // if else 
         if(age>18){
             System.out.println("This person is legal.");
@@ -22,6 +22,19 @@ public class Ifelse {
         }
         else{
             System.out.println("She is not Legal.");
+        }
+
+        //nested if 
+        if(age>18){
+            if(isBoy){
+                System.out.println("He is legal and is a boy.");
+            }
+            else{
+                System.out.println("She is legal and is a girl");
+            }
+        }
+        else{
+            System.out.println("Person is not legal and is a girl");
         }
     }
 }
