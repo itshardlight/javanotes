@@ -1,4 +1,4 @@
-public class Mathclass {
+public class Mathmethods {
     public static void main(String[] args){
         // Using maths class
         // Gives the value of PI wihtout storing in any varible we can use it directly
