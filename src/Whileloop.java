@@ -7,6 +7,7 @@ public class Whileloop {
         ****
         ***** */    
         
+        //while loop 
         int i = 0;
         int j = 0;
         while (i<6){
@@ -18,5 +19,12 @@ public class Whileloop {
             j=0;
             i++;
         }
+
+        // do while loop
+        do{
+            System.out.println("hi this is test"+i);
+            i++;
+        }
+        while(i<5);
     }
 }
