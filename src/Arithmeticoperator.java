@@ -27,5 +27,6 @@ public class Arithmeticoperator {
             System.out.printf("The division of "+num1+" and "+num2+" is: %.2f",((float)num2/num1));
             //printf for formated printing where we use %d %f %2f and the variable are separated by ,
         }
+        scanner.close();
     }
 }
