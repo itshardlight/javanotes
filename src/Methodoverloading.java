@@ -1,4 +1,4 @@
-public class Overloadingmethod {
+public class Methodoverloading {
     //make sure to use a dif parameter but the method name can be same as given
     static int add(int a, int b){
         return(a+b);
