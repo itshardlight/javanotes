@@ -19,5 +19,7 @@ public class Polymorphism{
     public static void main(String[] args) {
         Circle circle = new Circle();
         circle.draw();
+        Shape shape = new Rectangle();
+        shape.draw();
     }
 }
