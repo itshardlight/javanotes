@@ -1,13 +1,15 @@
 class Parent{
     private int age=12; //only access within this class only 
+    public static int accessCount=0;
     String name;
     private double balance;
     public void setBalance(double a){
         balance =a;
-    }
+    }     
     public double getBalance(){
+        accessCount++;
         return balance;
-    }
+    }       
     public int getAge(){
         return age;
     }

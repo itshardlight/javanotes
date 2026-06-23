@@ -5,7 +5,6 @@ public abstract class Bank{
   
 }
 public class User extends Bank{
-    @Override
     public void people(){
         System.out.println("this is user");
     }
