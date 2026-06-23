@@ -7,8 +7,13 @@ class Parent{
             System.out.println("this is age: "+age);
         }
 }
-
-public class Rough{
+class Child extends Parent{
+    void display(){
+    // System.out.println("this is age: "+age); here we cannot access the private variable
+    System.out.println("this is age: "+year);
+    }
+}
+public class Accessmodifier{
     public static void main(String[] args) {
         Parent parent = new Parent();
         parent.display();
@@ -19,8 +24,9 @@ public class Rough{
     }
 }
 /*
+Access Modifier
 -->private only accessable inside of the same class
--->public accessable anywhere inside the package
+-->public accessable anywhere 
 -->protected accessable from same packages and the sub class even in dif package
--->default anywhere inside same packages
+-->default anywhere inside same packages 
 */

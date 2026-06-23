@@ -1,5 +1,4 @@
 //local instance class
-/* 
 class Parent{
     //class 
     static String name="Unish";
@@ -24,7 +23,8 @@ public class Variablescope {
 
     }
 }
-    */
+
+
 /*
 -->Local variable/Instance variable/Class variable
 -->Local created inside of method 

@@ -32,8 +32,11 @@ public class Constructor{
         }
     }
 /*
--->Constructor is a special method that is created 
+--> Constructor is a special method that is created 
     inside of a class having the same name as the class
--->It doesnot have a return type 
--->It runs automatically when we create an object 
+--> It doesnot have a return type 
+--> It runs automatically when we create an object 
+--> default constructor with no constructor 
+--> no args constrcutor simple method()
+--> parameterised constructor method(int a)
 */
