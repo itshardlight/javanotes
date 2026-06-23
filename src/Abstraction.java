@@ -1,10 +1,11 @@
-public abstract class Bank{
+abstract class Bank{
     int balance;
     String name;
     public abstract void people();
   
 }
-public class User extends Bank{
+class User extends Bank{
+    @Override
     public void people(){
         System.out.println("this is user");
     }
