@@ -23,3 +23,10 @@ public class Polymorphism{
         shape.draw();
     }
 }
+/*
+reusing the method but with the dif functationality 
+runtime/virtual: same name and same parameter but dif functationality 
+(reference type is checked in compile time)
+compile: same name but dif parameters and dif functationality 
+(object type dif is checked in run timie)
+*/
