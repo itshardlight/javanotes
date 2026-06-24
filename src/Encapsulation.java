@@ -26,3 +26,11 @@ public class Encapsulation{
         System.out.println(parent.name);
     }
 }
+/*
+Encapsulation means keeping the variables private and restricting the use of those variables
+indirect method--> getter and setter method where we can use to send the value or change the value using method 
+types of encapsulaiton 
+read only using getter 
+write only using setter 
+fully encapsulated using both getter and setter 
+*/

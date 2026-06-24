@@ -16,3 +16,8 @@ public class Abstraction {
     user.people();
     }
 }
+/*
+Abstraction hides the implementation details but functionality is provided
+when used abstract keyword we cannot create the instance of that class 
+we have to access it using child class 
+*/
