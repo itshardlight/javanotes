@@ -12,6 +12,6 @@ public class Binding {
 }
 /*
 Binding means connecting the Method with its method call 
-Static(early)-->compile time (refernce type) // private static final in method
+Static(early)-->compile time (reference type) // private static final in method
 Dynamic(late)-->run time (Obj type)
 */
