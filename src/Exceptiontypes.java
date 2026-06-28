@@ -11,6 +11,13 @@ public class Exceptiontypes {
         } catch (Exception e) {
             System.out.println("This is Checked Exception");
         }
-
     }
 }
+/*
+ * --> Exception is the error that arives when we compile the code
+ * Checked | Unchecked | Bonus
+ * --> Checked Exception: Error that has to be fixed using try and catch
+ * --> Unchecked Exception: Error not required to be fixed but can be handled
+ * --> Bonus: Error that cannot be fixed
+ * 
+ */
