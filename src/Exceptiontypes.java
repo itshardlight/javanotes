@@ -19,5 +19,6 @@ public class Exceptiontypes {
  * --> Checked Exception: Error that has to be fixed using try and catch
  * --> Unchecked Exception: Error not required to be fixed but can be handled
  * --> Bonus: Error that cannot be fixed
- * 
+ * --> Checked Exception are checked on compile time but is stilled run time
+ * error
  */
