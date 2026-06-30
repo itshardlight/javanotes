@@ -1,0 +1,6 @@
+/**
+ * Hashmap
+ */
+public class Hashmap<> {
+
+}
